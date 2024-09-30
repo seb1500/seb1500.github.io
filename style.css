@@ -1,0 +1,194 @@
+body {
+    background-color: #f4f4f9; /* Light grey background */
+   font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    font-size: 1rem; /* Standard font size */
+    color: #333; /* Darker text color */
+}
+
+h1 {
+    margin: 0px;
+    padding: 16px;
+    font-family: "Fredoka One", sans-serif;
+    color: #5b5ea6; /* Soft blue for heading */
+    text-align: center; /* Centered heading */
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: #ffffff; /* White header */
+    color: #5b5ea6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#main-header {
+    display: flex; 
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+}
+
+#nav-ul { 
+    display: flex;
+    justify-content: center; /* Center navigation */
+}
+
+#nav-ul > li {
+    padding: 10px 20px; /* Adjusted padding */
+    margin: 8px; /* Reduced margin */
+    border: 1px solid #5b5ea6; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #e7eaf2; /* Soft light blue */
+}
+
+body > header > nav > ul {
+    list-style: none;
+}
+
+.navbutton {
+    color: #5b5ea6; /* Text color */
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid 
+    border-radius: 5%;
+}
+
+#content-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center sections */
+    padding: 20px; /* Padding around content */
+}
+
+#intro {
+    width: 100%; /* Full width for intro section */
+    background-color: #ffffff; /* White background */
+    padding: 20px; /* Padding inside intro section */
+    margin-bottom: 20px; /* Space below intro section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#articles-and-form {
+    display: flex; /* Side by side layout */
+    width: 100%; /* Full width for articles and form */
+}
+
+#recent-articles {
+    width: 70%; /* 70% width for articles */
+    padding: 20px; /* Padding inside articles section */
+}
+
+.article-section {
+    background-color: #ffffff; /* White background for articles */
+    margin-bottom: 20px; /* Space between articles */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for articles */
+}
+
+article {
+    margin-bottom: 20px; /* Space between articles */
+}
+
+footer {
+    background-color: #ffffff; /* White footer */
+    padding: 20px; /* Padding inside footer */
+    text-align: center; /* Center footer content */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow above footer */
+}
+
+#footer-ul {
+    display: flex;
+    justify-content: center; /* Center footer links */
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* No padding */
+}
+
+#footer-ul > div {
+    margin: 0 10px; /* Margin between sections */
+}
+
+#submission-form {
+    width: 100%; /* Full width for the submission form */
+    max-width: 400px; /* Max width for better readability */
+    padding: 20px; /* Padding inside the form */
+    background-color: #ffffff; /* White background for form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for form */
+    margin-top: 20px; /* Space above the form */
+}
+
+aside {
+    width: 30%; /* Width of the aside section */
+    padding: 20px; /* Padding around aside content */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align to the start */
+    margin-left: 20px; /* Space between articles and submission form */
+}
+
+
+
+label {
+    display: block; /* Block display for labels */
+    margin: 10px 0; /* Space around labels */
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+input[type="submit"] {
+    background-color: #5b5ea6; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #4a4d91; /* Darker shade on hover */
+}
+
+img {
+    width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Rounded corners for images */
+}
+
+h2, h3, h4, h5, h6 {
+    color: #5b5ea6; /* Consistent heading color */
+}
+
+h2 {
+    margin-top: 20px; /* Space above main headings */
+}
+
+h3, h4 {
+    margin: 10px 0; /* Space around subheadings */
+}
+
+#final_block {
+    background-color: cornsilk;
+}
+
+footer a {
+    color: #5b5ea6; /* Footer link color */
+    text-decoration: none; /* No underline */
+}
+
+footer a:hover {
+    background-color: azure;
+    text-decoration: underline; /* Underline on hover */
+}
+
